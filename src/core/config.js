@@ -1,0 +1,43 @@
+export default {
+  "id": 13,
+  "title": "Download Request",
+  "framework": "Express",
+  "transport": "api",
+  "details": [
+    [
+      "Format",
+      "Plain-text checklist"
+    ],
+    [
+      "Inside",
+      "Scope, responsibilities, and the first useful milestone"
+    ]
+  ],
+  "projects": [],
+  "actions": [],
+  "capacity": 0,
+  "adminOnly": false,
+  "hideForm": false,
+  "publicList": false,
+  "formNote": "Your details are used only to handle this request.",
+  "kind": "download",
+  "eyebrow": "FREE RESOURCE",
+  "headline": "A small guide to getting started.",
+  "description": "Request the Project Kickoff Checklist. Your email will contain a one-time download link, valid for one hour.",
+  "button": "Email my download link",
+  "fields": [
+    {
+      "name": "name",
+      "label": "Your name",
+      "type": "text"
+    },
+    {
+      "name": "email",
+      "label": "Email address",
+      "type": "email"
+    }
+  ],
+  "success": "Your download request is saved.",
+  "accent": "#94612d",
+  "batch": false
+};
